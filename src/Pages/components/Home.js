@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../components/home.css";
+import { NavLink } from "react-router-dom";
 import profileimage from "../../images/profile.png";
 import Footer from "../../Shared/Footer";
 import Header from "../../Shared/Header";
@@ -46,9 +47,9 @@ const Home = () => {
             On the basis of familiar techs I made some projects,which are hosted
             online.You can check it.
           </p>
-          <a class="link1 primary-link" href="projects.html">
+          <NavLink exact to="/projects" class="link1 primary-link" >
             See Projects.
-          </a>
+          </NavLink>
         </div>
       </section>
       <section class="container1">
@@ -57,9 +58,9 @@ const Home = () => {
           <p>
             I'm also writing blogs on IT related topics.So you can check it out.
           </p>
-          <a class="link1 secondary-link" href="blogs.html">
+          <NavLink to="/blogs" class="link1 secondary-link" >
             See Blogs.
-          </a>
+          </NavLink>
         </div>
       </section>
       {/* <Footer /> */}
