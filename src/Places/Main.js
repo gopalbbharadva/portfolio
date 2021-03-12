@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import {
   BrowserRouter as Router,
+  Redirect,
   Route,
   Switch,
 } from "react-router-dom";
@@ -26,6 +27,7 @@ class Main extends React.Component {
               <Route exact path="/projects" component={Projects}/>
               <Route exact path="/blogs" component={Blogs}/>
               <Route exact path="/blogs/flutterblogs" component={FlutterBlog}/>
+              <Redirect to="/" />
             </Switch>
           
         </div>

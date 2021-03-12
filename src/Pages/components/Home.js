@@ -58,7 +58,7 @@ const Home = () => {
           <p>
             I'm also writing blogs on IT related topics.So you can check it out.
           </p>
-          <NavLink to="/blogs" class="link1 secondary-link" >
+          <NavLink exact to="/blogs" class="link1 secondary-link" >
             See Blogs.
           </NavLink>
         </div>
