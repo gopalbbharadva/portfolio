@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e3c51715.chunk.css",
+    "main.css": "/portfolio/static/css/main.32b44c78.chunk.css",
     "main.js": "/portfolio/static/js/main.234b5b8c.chunk.js",
     "main.js.map": "/portfolio/static/js/main.234b5b8c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.d6240fd9.js",
@@ -10,7 +10,7 @@
     "static/js/3.78d28d61.chunk.js": "/portfolio/static/js/3.78d28d61.chunk.js",
     "static/js/3.78d28d61.chunk.js.map": "/portfolio/static/js/3.78d28d61.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.e3c51715.chunk.css.map": "/portfolio/static/css/main.e3c51715.chunk.css.map",
+    "static/css/main.32b44c78.chunk.css.map": "/portfolio/static/css/main.32b44c78.chunk.css.map",
     "static/js/2.de705ebc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.de705ebc.chunk.js.LICENSE.txt",
     "static/media/flutterblog.9fe879a9.png": "/portfolio/static/media/flutterblog.9fe879a9.png",
     "static/media/profile.9e0748ca.png": "/portfolio/static/media/profile.9e0748ca.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.d6240fd9.js",
     "static/js/2.de705ebc.chunk.js",
-    "static/css/main.e3c51715.chunk.css",
+    "static/css/main.32b44c78.chunk.css",
     "static/js/main.234b5b8c.chunk.js"
   ]
 }
