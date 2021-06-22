@@ -1,32 +1,32 @@
 import React from "react";
 
 import './projects.css'
-import Footer from "../../Shared/Footer";
-import Header from "../../Shared/Header";
 
 const Projects = () => {
   return (
     <div>
-      {/* <Header /> */}
       <ul>
         <li>
           <article class="container-center">
-            <h1>Lucky Birthday App</h1>
-            <small>25 December,2020</small>
+            <h1>everNote Clone</h1>
+            <small>1 may, 2021</small>
             <p>
-              Technology: <span class="clr">Javascript</span>
+              Technology: <span class="clr">React js, React - quill, Firebase</span>
             </p>
-            <p class="para">Is your birthday lucky?Just check it</p>
+            <p class="para">
+            It's a ever note clone for making structured notes.
+            It uses react-quill text editor for making notes.
+            </p>
             <a
               class="link1 primary-link"
-              href="https://birthdaylucky.netlify.app/"
+              href="https://gopalbbharadva.github.io/everNote/"
             >
               Live Demo
             </a>
             &nbsp;
             <a
               class="link1 secondary-link"
-              href="https://github.com/gopalbbharadva/BirthdayLucky"
+              href="https://github.com/gopalbbharadva/everNote"
             >
               Source Code
             </a>
@@ -34,22 +34,25 @@ const Projects = () => {
         </li>
         <li>
           <article class="container-center-og">
-            <h1>Smart Phone App</h1>
-            <small>17 December,2020</small>
+            <h1>Photo Gallery</h1>
+            <small>26 april, 2021</small>
             <p>
-              Technology: <span class="clr">Rect.js</span>
+              Technology: <span class="clr">React Js, Firebase</span>
             </p>
             <p class="para">
-              Do you love smart phones,then here is the smart phone
-              recommandation for you.just check it
+            It's an photo gallery app.
+            It is just like Instagram post where you can upload photo and view it .
             </p>
-            <a class="link1 primary-link" href="https://eq4p9.csb.app/">
+            <a
+              class="link1 primary-link"
+              href="https://gopalbbharadva.github.io/photoGallery/"
+            >
               Live Demo
             </a>
             &nbsp;
             <a
               class="link1 secondary-link"
-              href="https://github.com/gopalbbharadva/Neog.camp-SmartPhonelistApp"
+              href="https://github.com/gopalbbharadva/photoGallery"
             >
               Source Code
             </a>
@@ -57,128 +60,25 @@ const Projects = () => {
         </li>
         <li>
           <article class="container-center">
-            <h1>Vehicle Emoji App</h1>
-            <small>17 December,2020</small>
+            <h1>movieDeck</h1>
+            <small>18 june, 2021</small>
             <p>
-              Technology: <span class="clr">React.js</span>
+              Technology: <span class="clr">React Js, Firebase</span>
             </p>
             <p class="para">
-              I struggle with understanding the emojis. Do you too? If yes, then
-              see this library of emojis with meaning
-            </p>
-            <a class="link1 primary-link" href="https://ys1c1.csb.app/">
-              Live Demo
-            </a>
-            &nbsp;
-            <a
-              class="link1 secondary-link"
-              href="https://github.com/gopalbbharadva/Neog.camp-VehicleEmojiApp"
-            >
-              Source Code
-            </a>
-          </article>
-        </li>
-        <li>
-          <article class="container-center-og">
-            <h1>Mandalorian Translator App</h1>
-            <small>13 December,2020</small>
-            <p>
-              Technology: <span class="clr">Javascript</span> &{" "}
-              <span class="clr">API</span>
-            </p>
-            <p class="para">
-              Convert from English to Starwars Mando'a language. Mando'a was the
-              language of the people native to the planet Mandalore.{" "}
+            It's movie listing app with short description and rating.
+            You can also search your favorite movie.
             </p>
             <a
               class="link1 primary-link"
-              href="https://mandaloriantexttranslator.netlify.app/"
+              href="https://gopalbbharadva.github.io/movieDeck/"
             >
               Live Demo
             </a>
             &nbsp;
             <a
               class="link1 secondary-link"
-              href="https://github.com/gopalbbharadva/Neog.camp-Mandalorian_App"
-            >
-              Source Code
-            </a>
-          </article>
-        </li>
-        <li>
-          <article class="container-center">
-            <h1>Minions Text Translator App</h1>
-            <small>13 December,2020</small>
-            <p>
-              Technology: <span class="clr">Javascript</span> &{" "}
-              <span class="clr">API</span>
-            </p>
-            <p class="para">
-              Are you a fan of minions? Did you know that the gibberish they say
-              is an actual language. Use the translator to convert your text
-              from English to Minion speak or Banana language.
-            </p>
-            <a
-              class="link1 primary-link"
-              href="https://minionstranslatorpractise.netlify.app/"
-            >
-              Live Demo
-            </a>
-            &nbsp;
-            <a
-              class="link1 secondary-link"
-              href="https://github.com/gopalbbharadva/Neog.camp-Minions_App"
-            >
-              Source Code
-            </a>
-          </article>
-        </li>
-        <li>
-          <article class="container-center-og">
-            <h1>Flutter Quiz App</h1>
-            <small>10 December,2020</small>
-            <p>
-              Technology: <span class="clr">Javascript</span>
-            </p>
-            <p class="para">
-              Do you know Flutter?If not then you should check it out by playing
-              quiz as it's future.
-            </p>
-            <a
-              class="link1 primary-link"
-              href="https://repl.it/@Gopal004/Flutter-quiz?embed=1#index.js"
-            >
-              Live Demo
-            </a>
-            &nbsp;
-            <a
-              class="link1 secondary-link"
-              href="https://github.com/gopalbbharadva/Neog.camp-Flutter_Quiz"
-            >
-              Source Code
-            </a>
-          </article>
-        </li>
-        <li>
-          <article class="container-center">
-            <h1>Friend Quiz App</h1>
-            <small>9 December,2020</small>
-            <p>
-              Technology: <span class="clr">Javascript</span>
-            </p>
-            <p class="para">
-              Do you know how much your best friend know you?Just check it.
-            </p>
-            <a
-              class="link1 primary-link"
-              href="https://repl.it/@Gopal004/FriendQuiz?embed=1#index.js"
-            >
-              Live Demo
-            </a>
-            &nbsp;
-            <a
-              class="link1 secondary-link"
-              href="https://github.com/gopalbbharadva/Neog.camp-Friend_Quiz"
+              href="https://github.com/gopalbbharadva/movieDeck"
             >
               Source Code
             </a>
