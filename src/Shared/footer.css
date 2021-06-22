@@ -6,7 +6,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 :root {
-  --primary-color: #34d399;
+  --primary-color: #34D399;
   --section-color: #ecfdf5;
 }
 
@@ -15,11 +15,13 @@ body {
 }
 footer {
   border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
   background-color: var(--primary-color);
   padding: 1.5rem 1rem;
   text-align: center;
 }
 .footer-header {
+  font-weight: bold;
   font-size: large;
   color: white;
   text-align: center;

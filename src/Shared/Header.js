@@ -1,5 +1,4 @@
 import React from "react";
-import Blogs from "../Pages/components/Blogs";
 import { NavLink } from "react-router-dom";
 
 import "./header.css";

@@ -16,7 +16,7 @@ const Home = () => {
         <div class="header">
           <img class="image" src={profileimage} />
           <p class="header-text">
-            Hi,I am an <span class="clr">App Developer.</span>
+            Hi, I'm a <span class="clr"> Web Developer.</span>
           </p>
         </div>
       </header>
@@ -25,10 +25,8 @@ const Home = () => {
         <div class="container container-og">
           <h2 style={{ textAlign: "center" }}>About Me</h2>
           <p>
-            I'm Third Year IT Student at VGEC.Crush on App development with{" "}
-            <span class="clr">
-              <b><a style={{textDecoration:"none",color:"#34D399"}} href="https://flutter.dev/docs">Flutter</a>.</b>{" "}
-            </span>
+            I'm Third Year IT Student at VGEC.I want to do a work that I like to do, and it's to make real world web-apps.
+
           </p>
         </div>
       </section>
@@ -36,7 +34,7 @@ const Home = () => {
         <div class="container container-white">
           <h2>Familiar Techs.</h2>
           <p>
-            I'm Familiar with Html, CSS3, Java, Flutter, PHP, Git, Web Hosting.
+            I'm Familiar with Html, CSS3, Js, React Js, Flutter, Git, Firebase.
           </p>
         </div>
       </section>
@@ -63,7 +61,6 @@ const Home = () => {
           </NavLink>
         </div>
       </section>
-      {/* <Footer /> */}
     </div>
   );
 };
