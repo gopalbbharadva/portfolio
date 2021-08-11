@@ -84,7 +84,7 @@ const Projects = () => {
             </a>
           </article>
         </li>
-        <li>
+        {/* <li>
           <article class="container-center-og">
             <h1>Tailor Measurement App</h1>
             <small>10 December,2020</small>
@@ -110,7 +110,7 @@ const Projects = () => {
               Source Code
             </a>
           </article>
-        </li>
+        </li> */}
       </ul>
       {/* <Footer /> */}
     </div>
