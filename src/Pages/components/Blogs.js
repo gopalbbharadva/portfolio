@@ -18,33 +18,10 @@ const Blogs = () => {
       </div>
       <ul type="none">
         <li>
-          <article className="container container-white">
-            <h1 className="container-white">Flutter Blog 1</h1>
-            <br />
-            <small>December,2020</small>
-            <p>
-              Flutter is a cross-platform UI toolkit that is designed to allow
-              code reuse across operating systems such as iOS and Android, while
-              also allowing applications to interface directly with underlying
-              platform services.{" "}
-            </p>
-            <NavLink
-              exact
-              to="/blogs/flutterblogs"
-              className="link1 primary-link"
-            >
-              Read More
-            </NavLink>
-            &nbsp;
-          </article>
-          <br />
-          <br />
-        </li>
-        <li>
           <article class="container container-white">
             <h1 class="container-white">Closures in Js</h1>
             <br />
-            <small>December,2020</small>
+            <small>31 July, 2021</small>
             <p>Take a look at closures in javascript.</p>
             <NavLink exact to="/blogs/Closures" class="link1 primary-link">
               Read More
@@ -58,15 +35,9 @@ const Blogs = () => {
           <article className="container container-white">
             <h1 className="container-white">Hoisting in Js</h1>
             <br />
-            <small>December,2020</small>
-            <p>
-              Understand one of the important concept of js Hoisting
-            </p>
-            <NavLink
-              exact
-              to="/blogs/Hoisting"
-              className="link1 primary-link"
-            >
+            <small>2 August, 2021</small>
+            <p>Understand one of the important concept of js Hoisting</p>
+            <NavLink exact to="/blogs/Hoisting" className="link1 primary-link">
               Read More
             </NavLink>
             &nbsp;
